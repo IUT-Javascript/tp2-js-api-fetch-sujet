@@ -1,6 +1,6 @@
 ## Sujet du TP
 
-1) Modifier la méthode `createArticle` pour qu'elle affiche un article avec le code HTML suivant <article data-id="$ID" class="article"><span>$TITLE</span><p>$DESCRIPTION</p></article>. L'ID de l'article devra être déduit par rapport au plus grand ID de la page.
+1) Modifier la méthode `createArticle` pour qu'elle affiche un article avec le code HTML suivant `<article data-id="$ID" class="article"><span>$TITLE</span><p>$DESCRIPTION</p></article>`. L'ID de l'article devra être déduit par rapport au plus grand ID de la page.
 
 2) Mettre en place une chaîne de caractères JSON représentant une liste d'article (composé d'un id, d'un titre et d'une description). Au chargement de la page, les articles JSON devront être parsés pour être intégrés au sein de la page (dans la div ayant pour l'id newsList).
 
